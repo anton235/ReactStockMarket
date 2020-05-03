@@ -1,0 +1,17 @@
+h2{
+    padding: 0.1em;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

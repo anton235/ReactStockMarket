@@ -1,0 +1,23 @@
+.modal {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    padding: 10px;
+    box-shadow: 0 10px 30px 0 rgba(127, 127, 127, 0.3);
+    /* background: rgba(255, 255, 255, 0.8); */
+    background-color: rgba(53, 51, 51, 0.9);
+  }
+
+/* .model > .h3 , .p{
+  color: white;
+} */
+
+.modal_p{
+  color: white;
+}
+
+.modal_h3{
+  color: white;
+}

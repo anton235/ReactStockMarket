@@ -1,0 +1,11 @@
+form {
+  border: thin solid red;
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+}
+
+.stockDataBox {
+  padding: 1em;
+  margin: 1rem;
+}

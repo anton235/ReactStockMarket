@@ -1,0 +1,19 @@
+.stockNewsBox{
+    padding: 1em;
+    margin: 2rem;
+    background-color: rgb(197, 199, 201);
+}
+
+
+.stockNewsBox > li:nth-child(odd){
+    background-color: rgb(216, 216, 216);
+}
+
+.stockNewsBox > li > a > span{
+    position: absolute;
+    right: 60px;
+    border: 3px solid rgb(51, 66, 107);
+    padding: 0px 5px;
+    width: 30px;
+    border-width: 1px;
+}

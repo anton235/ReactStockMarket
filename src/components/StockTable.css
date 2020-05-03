@@ -1,0 +1,24 @@
+.stockTablesWrapper {
+    background-color: rgba(238, 238, 238, 0.753);
+    margin: 2rem;
+    display: grid;
+    /* grid-gap: 1em; */
+}
+  
+.stockTableBody,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.stockTableBody > tr:nth-child(odd){
+    background-color: lightslategrey;
+}
+
+.stockTableBody > tr > td:nth-child(even){
+    font-weight: bold;
+}
+
+.stockTableBody > tr > td:nth-child(odd){
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
