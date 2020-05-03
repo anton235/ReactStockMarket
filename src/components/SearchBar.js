@@ -39,12 +39,6 @@ class SearchBar extends React.Component{
     }  
 
     fetchStockData(){
-        // const API_TOKEN = 'bKVaqz08JDQZF7kRAgdvk4nzt0Izt3hNOvBWVGvJpvMwXnCFDkJv72ujydY3';
-        // let API_STOCK_DATA_CALL = `https://api.worldtradingdata.com/api/v1/stock?symbol=${this.props.stockSymbol}&api_token=${API_TOKEN}`;
-        //second key (anton5gg...)
-        const API_KEY = 'e4534c751f9e9a0dce3957fd2e28989a';
-        //first key (anton235)
-        //const API_KEY = 'c143b25f3ac13f6645c04105aabd34da';
         let API_GET_COMPANY_PROFILE = `https://fmpcloud.io/api/v3/profile/${this.props.stockSymbol}?apikey=${API_KEY}`;
         axios.get(API_GET_COMPANY_PROFILE)
         .then(response => 
